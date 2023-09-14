@@ -15,3 +15,7 @@ h1{
     padding: 20px;
     margin: 20px;
 }
+.paragraph-highlight {
+    background-color: #f7dc6f;
+    padding: 10px;
+}
