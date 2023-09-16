@@ -76,7 +76,7 @@ console.log("My name is" + newName + "," + "I live at " + place + "," +"I attend
 
 // let declarations can be updated within its scope and block but cannot be redeclared
 
-// const declarations maintain constant value, they can only be declared within the block they were declared and cannot be updated or re-declared
+// const declarations maintain constant value, they can only be declared within the block and cannot be updated or re-declared
 
 // var and let create variables that can be assigned
 
