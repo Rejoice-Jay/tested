@@ -78,3 +78,72 @@ console.log("My name is" + newName + "," + "I live at " + place + "," +"I attend
 
 // const declarations maintain constant value, they can only be declared within the block they were declared and cannot be updated or re-declared
 
+// var and let create variables that can be assigned
+
+var name3= "Precious";
+
+var name3= "Ore"
+
+// console.log(name3)
+
+let car= null;
+
+car= "Toyota";
+car= "Honda"
+
+console.log(car)
+
+// const shape= "Triangle"
+
+// let food= ; 
+
+console.log()
+
+// params or argument or placeholder
+
+
+// params
+function sum(x) {   // declared a function 
+    console.log(2 + x);
+}
+
+sum(5) //invoke or call
+
+function Country(country, CountryAbbreviation){
+    console.log(country + CountryAbbreviation)
+}
+
+Country( "Poland ","Pol") //invoke or call
+Country("Togo ","Tog")
+Country("Ghana ","Gha")
+Country("Rwanda ","Rwa")
+Country("Tanzania ","Tan")
+
+function addition(x, y) {   // declared a function 
+    console.log(x + y)
+    // console.log(x,y)
+    console.log(x + "+" + y + "=", x + y)
+}
+
+addition(4,1)
+addition(5,2)
+addition(5,4)
+
+function subtraction(a,b){;
+    console.log(a - b)
+    console.log(a + "-" + b+ "=", a - b)
+}
+subtraction(7,2)
+subtraction(10,5)
+subtraction(15,8)
+subtraction(23-13)
+
+function multiply(a,b){;
+    console.log(a * b)
+    console.log(a + "*" + b+ "=", a * b)
+}
+
+multiply(3,5)
+multiply(4,10)
+multiply(7,5)
+multiply(4,6)
