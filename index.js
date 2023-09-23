@@ -147,3 +147,24 @@ multiply(3,5)
 multiply(4,10)
 multiply(7,5)
 multiply(4,6)
+
+//Conditional statements
+
+// if (condition) {
+//     //code to be executed if the condition is true
+
+//let dogbark = true
+//let tobi
+
+let usersage = prompt("please enter your age");
+console.log (usersage)
+let  citizen =prompt("are you a citizen? (Yes or No)");
+console.log (citizen)
+
+if (usersage >=18 && citizen ==="Yes"){
+    console.log ("user is eligible to vote")
+
+}
+else {
+    console.log("user is not eligible to vote")
+}
